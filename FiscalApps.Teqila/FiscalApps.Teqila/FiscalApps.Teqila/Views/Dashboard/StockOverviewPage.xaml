@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-    x:Class="FiscalApps.Teqila.Views.Dashboard.StockOverviewPage"
+    x:Class="FiscalApps.Tequila.Views.Dashboard.StockOverviewPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:behavior="clr-namespace:FiscalApps.Teqila.Behaviors"
+    xmlns:behavior="clr-namespace:FiscalApps.Tequila.Behaviors"
     xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
     xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
-    xmlns:controls="clr-namespace:FiscalApps.Teqila.Controls"
-    xmlns:converters="clr-namespace:FiscalApps.Teqila.Converters"
+    xmlns:controls="clr-namespace:FiscalApps.Tequila.Controls"
+    xmlns:converters="clr-namespace:FiscalApps.Tequila.Converters"
     xmlns:expander="clr-namespace:Syncfusion.XForms.Expander;assembly=Syncfusion.Expander.XForms"
-    xmlns:viewModel="clr-namespace:FiscalApps.Teqila.ViewModels.Dashboard"
+    xmlns:viewModel="clr-namespace:FiscalApps.Tequila.ViewModels.Dashboard"
     x:Name="stockOverviewPage"
     NavigationPage.HasNavigationBar="False"
     Style="{StaticResource ContentPageStyle}">

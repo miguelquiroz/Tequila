@@ -4,7 +4,7 @@ using Syncfusion.XForms.Buttons;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 
-namespace FiscalApps.Teqila.Behaviors
+namespace FiscalApps.Tequila.Behaviors
 {
     /// <summary>
     /// This class extends the behavior of the SfSegmentedControl to invoke a command when an event occurs.

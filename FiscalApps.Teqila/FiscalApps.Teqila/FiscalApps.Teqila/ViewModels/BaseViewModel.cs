@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using Xamarin.Forms.Internals;
 
-namespace FiscalApps.Teqila.ViewModels
+namespace FiscalApps.Tequila.ViewModels
 {
     /// <summary>
     /// This viewmodel extends in another viewmodels.

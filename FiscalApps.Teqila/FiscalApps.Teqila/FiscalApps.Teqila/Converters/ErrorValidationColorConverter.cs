@@ -3,10 +3,10 @@ using System.Globalization;
 using System.Text.RegularExpressions;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
-using FiscalApps.Teqila.Controls;
-using FiscalApps.Teqila.ViewModels.Forms;
+using FiscalApps.Tequila.Controls;
+using FiscalApps.Tequila.ViewModels.Forms;
 
-namespace FiscalApps.Teqila.Converters
+namespace FiscalApps.Tequila.Converters
 {
     /// <summary>
     /// This class have methods to convert the Boolean values to color objects. 

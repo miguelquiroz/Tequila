@@ -3,9 +3,9 @@ using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 using Application = Android.App.Application;
 
-[assembly: ExportRenderer(typeof(FiscalApps.Teqila.Controls.BorderlessEntry), typeof(FiscalApps.Teqila.Droid.BorderlessEntryRenderer))]
+[assembly: ExportRenderer(typeof(FiscalApps.Tequila.Controls.BorderlessEntry), typeof(FiscalApps.Tequila.Droid.BorderlessEntryRenderer))]
 
-namespace FiscalApps.Teqila.Droid
+namespace FiscalApps.Tequila.Droid
 {
     public class BorderlessEntryRenderer : EntryRenderer
     {

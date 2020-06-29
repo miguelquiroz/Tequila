@@ -9,9 +9,9 @@
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FiscalApps.Teqila.iOS</RootNamespace>
+    <RootNamespace>FiscalApps.Tequila.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>FiscalApps.Teqila.iOS</AssemblyName>
+    <AssemblyName>FiscalApps.Tequila.iOS</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <ProvisioningType>automatic</ProvisioningType>
@@ -61,6 +61,9 @@
     <MtouchArch>ARM64</MtouchArch>
     <CodesignKey>iPhone Developer</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <AppExtensionDebugBundleId />
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -150,9 +153,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\FiscalApps.Teqila\FiscalApps.Teqila.csproj">
-      <Project>{952B2501-9F58-4B0D-BC6F-00437E18AD51}</Project>
-      <Name>FiscalApps.Teqila</Name>
+    <ProjectReference Include="..\FiscalApps.Teqila\FiscalApps.Tequila.csproj">
+      <Project>{6C5644AA-5EB5-476B-A320-6FEBB68A178A}</Project>
+      <Name>FiscalApps.Tequila</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

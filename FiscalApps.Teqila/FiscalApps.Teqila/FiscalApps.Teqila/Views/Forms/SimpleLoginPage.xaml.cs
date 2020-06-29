@@ -1,7 +1,7 @@
 ﻿using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
 
-namespace FiscalApps.Teqila.Views.Forms
+namespace FiscalApps.Tequila.Views.Forms
 {
     /// <summary>
     /// Page to login with user name and password

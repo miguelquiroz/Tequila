@@ -2,7 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 
-namespace FiscalApps.Teqila.ViewModels.Forms
+namespace FiscalApps.Tequila.ViewModels.Forms
 {
     /// <summary>
     /// ViewModel for login page.
@@ -90,6 +90,7 @@ namespace FiscalApps.Teqila.ViewModels.Forms
         private void LoginClicked(object obj)
         {
             // Do something
+
         }
 
         /// <summary>

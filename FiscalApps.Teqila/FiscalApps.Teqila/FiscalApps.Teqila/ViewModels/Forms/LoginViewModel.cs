@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms.Internals;
 
-namespace FiscalApps.Teqila.ViewModels.Forms
+namespace FiscalApps.Tequila.ViewModels.Forms
 {
     /// <summary>
     /// ViewModel for login page.

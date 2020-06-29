@@ -4,8 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             xmlns:themes = "clr-namespace:FiscalApps.Teqila.Themes;assembly=FiscalApps.Teqila"
-             x:Class="FiscalApps.Teqila.App">
+             xmlns:themes = "clr-namespace:FiscalApps.Tequila.Themes;assembly=FiscalApps.Tequila"
+             x:Class="FiscalApps.Tequila.App">
     <Application.Resources>
 
         <ResourceDictionary>

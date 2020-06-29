@@ -1,9 +1,9 @@
-using FiscalApps.Teqila.Views.Forms;
+using FiscalApps.Tequila.Views.Forms;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace FiscalApps.Teqila
+namespace FiscalApps.Tequila
 {
     public partial class App : Application
     {

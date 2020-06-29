@@ -3,9 +3,9 @@ using System.Globalization;
 using System.Text.RegularExpressions;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
-using FiscalApps.Teqila.Controls;
+using FiscalApps.Tequila.Controls;
 
-namespace FiscalApps.Teqila.Converters
+namespace FiscalApps.Tequila.Converters
 {
     /// <summary>
     /// This class have methods to convert the string values to boolean.     

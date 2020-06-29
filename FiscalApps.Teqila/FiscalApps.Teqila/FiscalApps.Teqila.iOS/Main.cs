@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace FiscalApps.Teqila.iOS
+namespace FiscalApps.Tequila.iOS
 {
     public class Application
     {

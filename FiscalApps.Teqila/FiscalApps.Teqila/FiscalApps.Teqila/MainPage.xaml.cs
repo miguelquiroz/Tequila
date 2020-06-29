@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace FiscalApps.Teqila
+namespace FiscalApps.Tequila
 {
     // Learn more about making custom code visible in the Xamarin.Forms previewer
     // by visiting https://aka.ms/xamarinforms-previewer
@@ -15,6 +15,7 @@ namespace FiscalApps.Teqila
     {
         public MainPage()
         {
+
             InitializeComponent();
         }
     }

@@ -2,9 +2,9 @@ using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
-[assembly: ExportRenderer(typeof(FiscalApps.Teqila.Controls.BorderlessEntry), typeof(FiscalApps.Teqila.iOS.BorderlessEntryRenderer))]
+[assembly: ExportRenderer(typeof(FiscalApps.Tequila.Controls.BorderlessEntry), typeof(FiscalApps.Tequila.iOS.BorderlessEntryRenderer))]
 
-namespace FiscalApps.Teqila.iOS
+namespace FiscalApps.Tequila.iOS
 {
     public class BorderlessEntryRenderer : EntryRenderer
     {

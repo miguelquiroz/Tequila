@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <ContentView
-    x:Class="FiscalApps.Teqila.Views.Forms.SimpleEmailEntry"
+    x:Class="FiscalApps.Tequila.Views.Forms.SimpleEmailEntry"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
-    xmlns:control="clr-namespace:FiscalApps.Teqila.Controls"
-    xmlns:converter="clr-namespace:FiscalApps.Teqila.Converters">
+    xmlns:control="clr-namespace:FiscalApps.Tequila.Controls"
+    xmlns:converter="clr-namespace:FiscalApps.Tequila.Converters">
 
     <ContentView.Resources>
         <ResourceDictionary>

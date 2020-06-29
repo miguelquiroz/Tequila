@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <ResourceDictionary
-    x:Class="FiscalApps.Teqila.Views.Dashboard.Styles"
+    x:Class="FiscalApps.Tequila.Views.Dashboard.Styles"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
     xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
-    xmlns:converter="clr-namespace:FiscalApps.Teqila.Converters"
+    xmlns:converter="clr-namespace:FiscalApps.Tequila.Converters"
     xmlns:graphics="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms">
 
     <x:String x:Key="Menu">&#xe72e;</x:String>

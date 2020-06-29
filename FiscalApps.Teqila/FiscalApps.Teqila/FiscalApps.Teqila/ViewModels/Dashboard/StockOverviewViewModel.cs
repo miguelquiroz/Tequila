@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using FiscalApps.Teqila.Models.Dashboard;
+using FiscalApps.Tequila.Models.Dashboard;
 using Syncfusion.SfChart.XForms;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 
-namespace FiscalApps.Teqila.ViewModels.Dashboard
+namespace FiscalApps.Tequila.ViewModels.Dashboard
 {
     /// <summary>
     /// ViewModel for stock overview page.

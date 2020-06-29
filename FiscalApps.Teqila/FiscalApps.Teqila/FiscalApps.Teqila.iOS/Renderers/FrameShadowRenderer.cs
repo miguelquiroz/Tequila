@@ -1,12 +1,12 @@
-using FiscalApps.Teqila.Controls;
-using FiscalApps.Teqila.iOS;
+using FiscalApps.Tequila.Controls;
+using FiscalApps.Tequila.iOS;
 using CoreGraphics;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
 [assembly: ExportRenderer(typeof(CustomShadowFrame), typeof(FrameShadowRenderer))]
 
-namespace FiscalApps.Teqila.iOS
+namespace FiscalApps.Tequila.iOS
 {
     /// <summary>
     /// Customize the shadow effects of the Frame control in iOS to make the shadow effects looks similar to Android

@@ -2,7 +2,7 @@
 using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
 
-namespace FiscalApps.Teqila.Views.Dashboard
+namespace FiscalApps.Tequila.Views.Dashboard
 {
     /// <summary>
     /// Page to stock details with chart.

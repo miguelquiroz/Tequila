@@ -1,7 +1,7 @@
 ﻿using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 
-namespace FiscalApps.Teqila.Controls
+namespace FiscalApps.Tequila.Controls
 {
     /// <summary>
     /// The Title view

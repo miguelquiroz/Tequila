@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using Xamarin.Forms.Internals;
 
-namespace FiscalApps.Teqila.Models.Dashboard
+namespace FiscalApps.Tequila.Models.Dashboard
 {
     /// <summary>
     /// Model for Stock.
