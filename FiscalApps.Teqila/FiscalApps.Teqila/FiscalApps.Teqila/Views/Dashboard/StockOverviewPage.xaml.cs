@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using FiscalApps.Tequila.ViewModels.Dashboard;
+using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
 
@@ -16,6 +17,7 @@ namespace FiscalApps.Tequila.Views.Dashboard
         /// </summary>
         public StockOverviewPage()
         {
+            BindingContext = new StockOverviewViewModel(this.Navigation);
             InitializeComponent();
         }
     }

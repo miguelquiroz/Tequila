@@ -17,6 +17,8 @@ namespace FiscalApps.Tequila.ViewModels.Dashboard
     {
         #region Field
 
+        private INavigation navigation;
+
         private ObservableCollection<Stock> items;
 
         private int selectedDataVariantIndex;
@@ -38,8 +40,9 @@ namespace FiscalApps.Tequila.ViewModels.Dashboard
         /// <summary>
         /// Initializes a new instance for the <see cref="StockOverviewViewModel" /> class.
         /// </summary>
-        public StockOverviewViewModel()
+        public StockOverviewViewModel(INavigation _navigation)
         {
+            navigation = _navigation;
             GetChartData();
             var variants = new List<string> { "1M", "3M", "6M", "9M", "1Y" };
             items = new ObservableCollection<Stock>()

@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms.Internals;
+﻿using FiscalApps.Tequila.ViewModels.Forms;
+using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
 
 namespace FiscalApps.Tequila.Views.Forms
@@ -14,8 +15,9 @@ namespace FiscalApps.Tequila.Views.Forms
         /// Initializes a new instance of the <see cref="SimpleLoginPage" /> class.
         /// </summary>
         public SimpleLoginPage()
-        {
+        {           
             InitializeComponent();
+            BindingContext = new LoginPageViewModel(this.Navigation);
         }
     }
 }

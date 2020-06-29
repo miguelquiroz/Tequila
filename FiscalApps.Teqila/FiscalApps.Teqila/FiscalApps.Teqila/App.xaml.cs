@@ -1,3 +1,4 @@
+using FiscalApps.Tequila.Views.Dashboard;
 using FiscalApps.Tequila.Views.Forms;
 using System;
 using Xamarin.Forms;
@@ -11,8 +12,7 @@ namespace FiscalApps.Tequila
         public App()
         {
             InitializeComponent();
-
-            MainPage = new SimpleLoginPage();
+            MainPage = new NavigationPage(new SimpleLoginPage());
         }
 
         protected override void OnStart()

@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using FiscalApps.Tequila.Views.Dashboard;
+using System.Linq;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 
@@ -13,7 +15,7 @@ namespace FiscalApps.Tequila.ViewModels.Forms
         #region Fields
 
         private string password;
-
+        private INavigation navigation;
         #endregion
 
         #region Constructor
@@ -21,8 +23,9 @@ namespace FiscalApps.Tequila.ViewModels.Forms
         /// <summary>
         /// Initializes a new instance for the <see cref="LoginPageViewModel" /> class.
         /// </summary>
-        public LoginPageViewModel()
+        public LoginPageViewModel(INavigation _navigation)
         {
+            navigation = _navigation;
             this.LoginCommand = new Command(this.LoginClicked);
             this.SignUpCommand = new Command(this.SignUpClicked);
             this.ForgotPasswordCommand = new Command(this.ForgotPasswordClicked);
@@ -54,6 +57,13 @@ namespace FiscalApps.Tequila.ViewModels.Forms
                 this.NotifyPropertyChanged();
             }
         }
+
+        public INavigation Navigation
+        {
+            get { return navigation; }
+            set { navigation = value; }
+        }
+
 
         #endregion
 
@@ -87,9 +97,12 @@ namespace FiscalApps.Tequila.ViewModels.Forms
         /// Invoked when the Log In button is clicked.
         /// </summary>
         /// <param name="obj">The Object</param>
-        private void LoginClicked(object obj)
+        private async void LoginClicked(object obj)
         {
             // Do something
+            var newPage = new StockOverviewPage();
+            Navigation.InsertPageBefore(newPage, navigation.NavigationStack.LastOrDefault());
+            await Navigation.PopAsync();
 
         }
 

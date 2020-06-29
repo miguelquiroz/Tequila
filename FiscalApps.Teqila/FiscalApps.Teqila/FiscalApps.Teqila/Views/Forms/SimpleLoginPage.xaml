@@ -22,11 +22,6 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <!--  Binding context for login page  -->
-    <ContentPage.BindingContext>
-        <viewModel:LoginPageViewModel />
-    </ContentPage.BindingContext>
-
     <ContentPage.Content>
         <ScrollView HorizontalOptions="Center">
             <ScrollView.VerticalOptions>

@@ -15,10 +15,6 @@
     NavigationPage.HasNavigationBar="False"
     Style="{StaticResource ContentPageStyle}">
 
-    <ContentPage.BindingContext>
-        <viewModel:StockOverviewViewModel />
-    </ContentPage.BindingContext>
-
     <ContentPage.Resources>
         <ResourceDictionary>
 
